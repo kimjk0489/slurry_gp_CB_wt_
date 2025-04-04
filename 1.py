@@ -14,7 +14,7 @@ st.set_page_config(page_title="Carbon Black Optimization", layout="wide")
 st.title("Carbon Black 조성 최적화 (단일 변수 탐색)")
 
 # 1. CSV 로드
-df = pd.read_csv("slurry_data_wt_CB%.csv")
+df = pd.read_csv("slurry_data_wt%_CB.csv")
 
 # 2. 사용자 입력 섹션
 st.sidebar.header("데이터 추가")
